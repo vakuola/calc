@@ -1,1 +1,14 @@
+#coding: cp1251
 
+a=int(input("¬ведите первое число "))
+b=int(input("¬ведите второе число "))
+c=input('¬ведите операцию ')
+
+if c=='+':
+    print(a+b)
+if c=="-":
+    print(a-b)
+if c=="*":
+    print(a*b)
+if c=="/":
+    print(a/b)
